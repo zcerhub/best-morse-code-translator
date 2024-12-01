@@ -9,7 +9,7 @@ export default function Index() {
 
   const heroPost = allPosts[0];
 
-  const morePosts = {};
+  const morePosts: any[] = [];
 
   return (
     <main>
