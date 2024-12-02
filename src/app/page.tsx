@@ -7,7 +7,7 @@ import { getAllPosts } from "@/lib/api";
 export default function Index() {
   const allPosts = getAllPosts();
 
-  const heroPost: any = allPosts[0];
+  const heroPost = allPosts[0];
 
   const morePosts: any[] = [];
 
