@@ -63,6 +63,7 @@ export default function RootLayout({
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
         <Footer />
+        <div id="portal-root"></div>
       </body>
     </html>
   );
